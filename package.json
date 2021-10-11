@@ -1,0 +1,40 @@
+{
+    "name": "mykcs",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev -p 5000",
+        "build": "next build",
+        "start": "next start",
+        "sass": "node-sass --watch scss/main.scss css/style.css --source-map css/style.css.map"
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.12.3",
+        "@material-ui/lab": "^4.0.0-alpha.60",
+        "@sendgrid/mail": "^7.4.6",
+        "axios": "^0.21.1",
+        "firebase": "^9.0.0",
+        "moment": "^2.29.1",
+        "next": "^10.0.6",
+        "node-sass": "^5.0.0",
+        "nodemailer": "^6.6.3",
+        "react": "^17.0.1",
+        "react-animated-css": "^1.2.1",
+        "react-bootstrap": "^1.5.0",
+        "react-countup": "^4.3.3",
+        "react-dom": "^17.0.1",
+        "react-google-recaptcha": "^2.1.0",
+        "react-hook-form": "^7.14.2",
+        "react-modal-video": "^1.2.6",
+        "react-rangeslider": "^2.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-scroll-to-top": "^1.0.5",
+        "react-slick": "^0.28.0",
+        "react-visibility-sensor": "^5.1.1",
+        "simple-react-lightbox": "^3.6.6",
+        "slick-carousel": "^1.8.1",
+        "smtp-server": "^3.9.0",
+        "use-scroll-position": "0.0.4",
+        "wowjs": "^1.1.3"
+    }
+}
